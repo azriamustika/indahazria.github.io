@@ -1,24 +1,79 @@
-Welcome to Our Restaurant si manis
-Here is the menu:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our Delicious Menu</h1>
+        </header>
 
-Pizza Margherita: $8.99
-Spaghetti Carbonara: $12.99
-Caesar Salad: $6.50
-Cheeseburger: $9.99
-French Fries: $3.50
-Tiramisu: $5.99
-Water: $1.50
-Coca-Cola: $2.50
-Beer: $4.00
+        <section class="menu-section">
+            <div class="menu-category">
+                <h2>Appetizers</h2>
+                <ul>
+                    <li>
+                        <span class="dish-name">Bruschetta</span>
+                        <span class="dish-price">$7.99</span>
+                    </li>
+                    <li>
+                        <span class="dish-name">Garlic Bread</span>
+                        <span class="dish-price">$4.99</span>
+                    </li>
+                </ul>
+            </div>
 
-Enter the item you want to order or type 'done' to finish: Pizza Margherita
-Pizza Margherita added to your order.
-Enter the item you want to order or type 'done' to finish: Coca-Cola
-Coca-Cola added to your order.
-Enter the item you want to order or type 'done' to finish: done
+            <div class="menu-category">
+                <h2>Main Courses</h2>
+                <ul>
+                    <li>
+                        <span class="dish-name">Grilled Salmon</span>
+                        <span class="dish-price">$18.99</span>
+                    </li>
+                    <li>
+                        <span class="dish-name">Steak and Fries</span>
+                        <span class="dish-price">$22.99</span>
+                    </li>
+                </ul>
+            </div>
 
-Your Order:
-Pizza Margherita: $8.99
-Coca-Cola: $2.50
+            <div class="menu-category">
+                <h2>Desserts</h2>
+                <ul>
+                    <li>
+                        <span class="dish-name">Tiramisu</span>
+                        <span class="dish-price">$5.99</span>
+                    </li>
+                    <li>
+                        <span class="dish-name">Chocolate Cake</span>
+                        <span class="dish-price">$6.49</span>
+                    </li>
+                </ul>
+            </div>
 
-Total: $11.49
+            <div class="menu-category">
+                <h2>Beverages</h2>
+                <ul>
+                    <li>
+                        <span class="dish-name">Coca-Cola</span>
+                        <span class="dish-price">$1.99</span>
+                    </li>
+                    <li>
+                        <span class="dish-name">Lemonade</span>
+                        <span class="dish-price">$2.49</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Delicious Restaurant. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
